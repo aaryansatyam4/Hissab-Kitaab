@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		925F2F242B4290D900CD27CA /* Hissab_KitaabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925F2F232B4290D900CD27CA /* Hissab_KitaabApp.swift */; };
+		925F2F262B4290D900CD27CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925F2F252B4290D900CD27CA /* ContentView.swift */; };
+		925F2F282B4290DA00CD27CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 925F2F272B4290DA00CD27CA /* Assets.xcassets */; };
+		925F2F2B2B4290DA00CD27CA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 925F2F2A2B4290DA00CD27CA /* Preview Assets.xcassets */; };
+		925F2F352B4290DA00CD27CA /* Hissab_KitaabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925F2F342B4290DA00CD27CA /* Hissab_KitaabTests.swift */; };
+		925F2F3F2B4290DA00CD27CA /* Hissab_KitaabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925F2F3E2B4290DA00CD27CA /* Hissab_KitaabUITests.swift */; };
+		925F2F412B4290DA00CD27CA /* Hissab_KitaabUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925F2F402B4290DA00CD27CA /* Hissab_KitaabUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		925F2F312B4290DA00CD27CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 925F2F182B4290D900CD27CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 925F2F1F2B4290D900CD27CA;
+			remoteInfo = "Hissab Kitaab";
+		};
+		925F2F3B2B4290DA00CD27CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 925F2F182B4290D900CD27CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 925F2F1F2B4290D900CD27CA;
+			remoteInfo = "Hissab Kitaab";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		925F2F202B4290D900CD27CA /* Hissab Kitaab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hissab Kitaab.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		925F2F232B4290D900CD27CA /* Hissab_KitaabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hissab_KitaabApp.swift; sourceTree = "<group>"; };
+		925F2F252B4290D900CD27CA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		925F2F272B4290DA00CD27CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		925F2F2A2B4290DA00CD27CA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		925F2F302B4290DA00CD27CA /* Hissab KitaabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hissab KitaabTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		925F2F342B4290DA00CD27CA /* Hissab_KitaabTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hissab_KitaabTests.swift; sourceTree = "<group>"; };
+		925F2F3A2B4290DA00CD27CA /* Hissab KitaabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hissab KitaabUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		925F2F3E2B4290DA00CD27CA /* Hissab_KitaabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hissab_KitaabUITests.swift; sourceTree = "<group>"; };
+		925F2F402B4290DA00CD27CA /* Hissab_KitaabUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hissab_KitaabUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		925F2F1D2B4290D900CD27CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		925F2F2D2B4290DA00CD27CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		925F2F372B4290DA00CD27CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		925F2F172B4290D900CD27CA = {
+			isa = PBXGroup;
+			children = (
+				925F2F222B4290D900CD27CA /* Hissab Kitaab */,
+				925F2F332B4290DA00CD27CA /* Hissab KitaabTests */,
+				925F2F3D2B4290DA00CD27CA /* Hissab KitaabUITests */,
+				925F2F212B4290D900CD27CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		925F2F212B4290D900CD27CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				925F2F202B4290D900CD27CA /* Hissab Kitaab.app */,
+				925F2F302B4290DA00CD27CA /* Hissab KitaabTests.xctest */,
+				925F2F3A2B4290DA00CD27CA /* Hissab KitaabUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		925F2F222B4290D900CD27CA /* Hissab Kitaab */ = {
+			isa = PBXGroup;
+			children = (
+				925F2F232B4290D900CD27CA /* Hissab_KitaabApp.swift */,
+				925F2F252B4290D900CD27CA /* ContentView.swift */,
+				925F2F272B4290DA00CD27CA /* Assets.xcassets */,
+				925F2F292B4290DA00CD27CA /* Preview Content */,
+			);
+			path = "Hissab Kitaab";
+			sourceTree = "<group>";
+		};
+		925F2F292B4290DA00CD27CA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				925F2F2A2B4290DA00CD27CA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		925F2F332B4290DA00CD27CA /* Hissab KitaabTests */ = {
+			isa = PBXGroup;
+			children = (
+				925F2F342B4290DA00CD27CA /* Hissab_KitaabTests.swift */,
+			);
+			path = "Hissab KitaabTests";
+			sourceTree = "<group>";
+		};
+		925F2F3D2B4290DA00CD27CA /* Hissab KitaabUITests */ = {
+			isa = PBXGroup;
+			children = (
+				925F2F3E2B4290DA00CD27CA /* Hissab_KitaabUITests.swift */,
+				925F2F402B4290DA00CD27CA /* Hissab_KitaabUITestsLaunchTests.swift */,
+			);
+			path = "Hissab KitaabUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		925F2F1F2B4290D900CD27CA /* Hissab Kitaab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 925F2F442B4290DA00CD27CA /* Build configuration list for PBXNativeTarget "Hissab Kitaab" */;
+			buildPhases = (
+				925F2F1C2B4290D900CD27CA /* Sources */,
+				925F2F1D2B4290D900CD27CA /* Frameworks */,
+				925F2F1E2B4290D900CD27CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hissab Kitaab";
+			productName = "Hissab Kitaab";
+			productReference = 925F2F202B4290D900CD27CA /* Hissab Kitaab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		925F2F2F2B4290DA00CD27CA /* Hissab KitaabTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 925F2F472B4290DA00CD27CA /* Build configuration list for PBXNativeTarget "Hissab KitaabTests" */;
+			buildPhases = (
+				925F2F2C2B4290DA00CD27CA /* Sources */,
+				925F2F2D2B4290DA00CD27CA /* Frameworks */,
+				925F2F2E2B4290DA00CD27CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				925F2F322B4290DA00CD27CA /* PBXTargetDependency */,
+			);
+			name = "Hissab KitaabTests";
+			productName = "Hissab KitaabTests";
+			productReference = 925F2F302B4290DA00CD27CA /* Hissab KitaabTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		925F2F392B4290DA00CD27CA /* Hissab KitaabUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 925F2F4A2B4290DA00CD27CA /* Build configuration list for PBXNativeTarget "Hissab KitaabUITests" */;
+			buildPhases = (
+				925F2F362B4290DA00CD27CA /* Sources */,
+				925F2F372B4290DA00CD27CA /* Frameworks */,
+				925F2F382B4290DA00CD27CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				925F2F3C2B4290DA00CD27CA /* PBXTargetDependency */,
+			);
+			name = "Hissab KitaabUITests";
+			productName = "Hissab KitaabUITests";
+			productReference = 925F2F3A2B4290DA00CD27CA /* Hissab KitaabUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		925F2F182B4290D900CD27CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					925F2F1F2B4290D900CD27CA = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					925F2F2F2B4290DA00CD27CA = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 925F2F1F2B4290D900CD27CA;
+					};
+					925F2F392B4290DA00CD27CA = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 925F2F1F2B4290D900CD27CA;
+					};
+				};
+			};
+			buildConfigurationList = 925F2F1B2B4290D900CD27CA /* Build configuration list for PBXProject "Hissab Kitaab" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 925F2F172B4290D900CD27CA;
+			productRefGroup = 925F2F212B4290D900CD27CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				925F2F1F2B4290D900CD27CA /* Hissab Kitaab */,
+				925F2F2F2B4290DA00CD27CA /* Hissab KitaabTests */,
+				925F2F392B4290DA00CD27CA /* Hissab KitaabUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		925F2F1E2B4290D900CD27CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				925F2F2B2B4290DA00CD27CA /* Preview Assets.xcassets in Resources */,
+				925F2F282B4290DA00CD27CA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		925F2F2E2B4290DA00CD27CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		925F2F382B4290DA00CD27CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		925F2F1C2B4290D900CD27CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				925F2F262B4290D900CD27CA /* ContentView.swift in Sources */,
+				925F2F242B4290D900CD27CA /* Hissab_KitaabApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		925F2F2C2B4290DA00CD27CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				925F2F352B4290DA00CD27CA /* Hissab_KitaabTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		925F2F362B4290DA00CD27CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				925F2F412B4290DA00CD27CA /* Hissab_KitaabUITestsLaunchTests.swift in Sources */,
+				925F2F3F2B4290DA00CD27CA /* Hissab_KitaabUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		925F2F322B4290DA00CD27CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 925F2F1F2B4290D900CD27CA /* Hissab Kitaab */;
+			targetProxy = 925F2F312B4290DA00CD27CA /* PBXContainerItemProxy */;
+		};
+		925F2F3C2B4290DA00CD27CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 925F2F1F2B4290D900CD27CA /* Hissab Kitaab */;
+			targetProxy = 925F2F3B2B4290DA00CD27CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		925F2F422B4290DA00CD27CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		925F2F432B4290DA00CD27CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		925F2F452B4290DA00CD27CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Hissab Kitaab/Preview Content\"";
+				DEVELOPMENT_TEAM = ACVDY5D97G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "aryan-satyam.Hissab-Kitaab";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		925F2F462B4290DA00CD27CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Hissab Kitaab/Preview Content\"";
+				DEVELOPMENT_TEAM = ACVDY5D97G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "aryan-satyam.Hissab-Kitaab";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		925F2F482B4290DA00CD27CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ACVDY5D97G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "aryan-satyam.Hissab-KitaabTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hissab Kitaab.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hissab Kitaab";
+			};
+			name = Debug;
+		};
+		925F2F492B4290DA00CD27CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ACVDY5D97G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "aryan-satyam.Hissab-KitaabTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hissab Kitaab.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hissab Kitaab";
+			};
+			name = Release;
+		};
+		925F2F4B2B4290DA00CD27CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ACVDY5D97G;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "aryan-satyam.Hissab-KitaabUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Hissab Kitaab";
+			};
+			name = Debug;
+		};
+		925F2F4C2B4290DA00CD27CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ACVDY5D97G;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "aryan-satyam.Hissab-KitaabUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Hissab Kitaab";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		925F2F1B2B4290D900CD27CA /* Build configuration list for PBXProject "Hissab Kitaab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				925F2F422B4290DA00CD27CA /* Debug */,
+				925F2F432B4290DA00CD27CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		925F2F442B4290DA00CD27CA /* Build configuration list for PBXNativeTarget "Hissab Kitaab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				925F2F452B4290DA00CD27CA /* Debug */,
+				925F2F462B4290DA00CD27CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		925F2F472B4290DA00CD27CA /* Build configuration list for PBXNativeTarget "Hissab KitaabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				925F2F482B4290DA00CD27CA /* Debug */,
+				925F2F492B4290DA00CD27CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		925F2F4A2B4290DA00CD27CA /* Build configuration list for PBXNativeTarget "Hissab KitaabUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				925F2F4B2B4290DA00CD27CA /* Debug */,
+				925F2F4C2B4290DA00CD27CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 925F2F182B4290D900CD27CA /* Project object */;
+}
